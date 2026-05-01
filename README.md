@@ -1,9 +1,7 @@
 <!--
-  Deploy (once):
-  1. GitHub → repo Zsadigzade/Zsadigzade (profile repo).
-  2. Copy README.md to root. Copy snake.yml → .github/workflows/snake.yml.
-  3. Actions → “Generate contribution snake” → Run workflow. Wait until branch `output` exists (SVGs at repo root on that branch).
-  4. README loads snake from: raw.githubusercontent.com/…/output/github-snake-dark.svg (branch name `output`, not folder).
+  Local clone: C:\Users\zsadi\Desktop\Zsadigzade  →  https://github.com/Zsadigzade/Zsadigzade
+  Snake workflow commits SVGs to output/ on the default branch (main). Run: Actions → Generate contribution snake.
+  Raw URL uses ref main + path output/… (not a branch named output).
 -->
 
 <div align="center">
@@ -145,14 +143,14 @@ note: "Stage background → keeps cool when prod misbehaves"
 ### 🐍 Contribution snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/output/github-snake.svg"/>
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/github-snake.svg"/>
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/github-snake-dark.svg"/>
 </picture>
 
 <br/>
 
-<sub>If this is empty: run workflow <code>Generate contribution snake</code> on the profile repo; SVGs are published to the <code>output</code> branch.</sub>
+<sub>If 404: repo must be <strong>public</strong> (raw files). Run <code>Generate contribution snake</code> once; check <code>main</code> → <code>output/*.svg</code> exists. If your default branch is not <code>main</code>, change the three URLs above to that branch name.</sub>
 
 <br/><br/>
 
