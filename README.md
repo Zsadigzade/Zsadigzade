@@ -1,24 +1,24 @@
 <!--
   Deploy (once):
-  1. GitHub → New repository named exactly Zsadigzade (same as your username).
-  2. Copy this README.md to repo root. Copy snake.yml → .github/workflows/snake.yml.
-  3. Actions → Generate contribution snake → Run workflow. Wait for output/github-snake*.svg commit.
-  4. Pin repos on your profile as you like.
+  1. GitHub → repo Zsadigzade/Zsadigzade (profile repo).
+  2. Copy README.md to root. Copy snake.yml → .github/workflows/snake.yml.
+  3. Actions → “Generate contribution snake” → Run workflow. Wait until branch `output` exists (SVGs at repo root on that branch).
+  4. README loads snake from: raw.githubusercontent.com/…/output/github-snake-dark.svg (branch name `output`, not folder).
 -->
 
 <div align="center">
 
-<img width="100%" alt="header" src="https://capsule-render.vercel.app/api?type=waving&color=0:F0A500,100:0D1117&height=185&section=header&text=Ziya%20Sadigzade&fontSize=50&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Co-Founder%20%40%20BRUH%20%C2%B7%20CS%20%40%20Charles%20University&descSize=16&descAlignY=66&stroke=F8D784&strokeWidth=1"/>
+<img width="100%" alt="header" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1206,40:E8A317,100:0D1117&height=190&section=header&text=Ziya%20Sadigzade&fontSize=50&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Co-Founder%20%40%20BRUH%20%C2%B7%20CS%20%40%20Charles%20University&descSize=16&descAlignY=65&descColor=E8C468&stroke=E8A317&strokeWidth=1"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=3500&pause=800&color=F0A500&background=transparent&center=true&vCenter=true&width=900&height=35&lines=Shipping+BRUH+on+iOS%2C+Android%2C+web.;Baku+%E2%86%92+Varna+%28BAS%29+%E2%86%92+Prague+%28Charles%29.;Product%2C+mobile%2C+web%2C+ML+%E2%80%94+pick+two%2C+I%E2%80%99ll+still+show+up." />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=3500&pause=800&color=FFCF56&background=transparent&center=true&vCenter=true&width=900&height=35&lines=Shipping+BRUH+on+iOS%2C+Android%2C+web.;Baku+%E2%86%92+Varna+%28BAS%29+%E2%86%92+Prague+%28Charles%29.;Product%2C+mobile%2C+web%2C+ML+%E2%80%94+pick+two%2C+I%E2%80%99ll+still+show+up." alt="tagline"/>
 
 <br/>
 
-<a href="https://www.linkedin.com/in/zsadigzade/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&ensp;
-<a href="https://zsadigzade.com"><img src="https://img.shields.io/badge/Site-zsadigzade.com-F0A500?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"/></a>&ensp;
-<a href="mailto:zsadigzade@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>&ensp;
-<a href="https://github.com/Zsadigzade"><img src="https://img.shields.io/badge/GitHub-30363D?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>&ensp;
-<img src="https://komarev.com/ghpvc/?username=Zsadigzade&style=flat-square&color=F0A500&label=profile+views" alt="views"/>
+<a href="https://www.linkedin.com/in/zsadigzade/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://zsadigzade.com"><img src="https://img.shields.io/badge/Site-E8A317?style=for-the-badge&logo=googlechrome&logoColor=0D1117" alt="Website"/></a>
+<a href="mailto:zsadigzade@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://github.com/Zsadigzade"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=E8A317" alt="GitHub"/></a>
+<img src="https://komarev.com/ghpvc/?username=Zsadigzade&style=for-the-badge&color=E8A317&label=views&labelColor=161B22" alt="views"/>
 
 </div>
 
@@ -32,11 +32,9 @@
 | **Study** | CS @ Charles University · scholarship track |
 | **Open to** | Hackathons, collabs, blunt product feedback |
 
-**Languages** · 🇦🇿 Azerbaijani · 🇬🇧 English · 🇹🇷 Turkish · 🇷🇺 Russian
-
 ---
 
-## 🧾 About (config-shaped)
+## `ziya.yaml`
 
 ```yaml
 origin: "Baku, AZ"
@@ -47,32 +45,7 @@ note: "Stage background → keeps cool when prod misbehaves"
 ```
 
 
-## ⭐ Featured
-
-<div align="center">
-
-<a href="https://github.com/Zsadigzade/BRUH">
-<img width="440" src="https://github-readme-stats.vercel.app/api/pin/?username=Zsadigzade&repo=BRUH&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=F0A500&icon_color=F0A500&show_owner=true" alt="BRUH repo"/>
-</a>
-
-</div>
-
-| | |
-|:---|:---|
-| **BRUH** | React 18, TypeScript, Vite, Tailwind, Supabase, Capacitor — live on stores. |
-| **BAS summer lab** | Handwritten digits · CNN · ~**98%** · Python, Keras, TensorFlow, paper. |
-
----
-
 ## 🛠 Stack
-
-| Lane | Tools |
-|:-----|:------|
-| **Apps** | React · TypeScript · Capacitor · Vite · Tailwind |
-| **Data & backend** | Supabase · PostgreSQL mindset · edge helpers |
-| **ML** | Python · TensorFlow · Keras |
-| **Ship** | Git · Linux · VS Code · Vercel |
-
 <div align="center">
 <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,python,tensorflow,nodejs,supabase,git,linux,vscode,vercel&theme=dark" alt="Skills"/>
 </div>
@@ -84,7 +57,7 @@ note: "Stage background → keeps cool when prod misbehaves"
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td width="168" valign="top">
-<img src="https://img.shields.io/badge/JAN%202026--PRESENT-F0A500?style=for-the-badge&labelColor=0D1117" alt="dates"/>
+<img src="https://img.shields.io/badge/JAN%202026--PRESENT-E8A317?style=for-the-badge&labelColor=161B22" alt="dates"/>
 </td>
 <td valign="top">
 <strong>Co-Founder · Product · Mobile & Web</strong><br/>
@@ -95,7 +68,7 @@ note: "Stage background → keeps cool when prod misbehaves"
 <tr><td colspan="2"><br/></td></tr>
 <tr>
 <td width="168" valign="top">
-<img src="https://img.shields.io/badge/MAY--AUG%202024-6d28d9?style=for-the-badge&labelColor=0D1117" alt="dates"/>
+<img src="https://img.shields.io/badge/MAY--AUG%202024-7C3AED?style=for-the-badge&labelColor=161B22" alt="dates"/>
 </td>
 <td valign="top">
 <strong>Business Development Intern</strong><br/>
@@ -106,7 +79,7 @@ note: "Stage background → keeps cool when prod misbehaves"
 <tr><td colspan="2"><br/></td></tr>
 <tr>
 <td width="168" valign="top">
-<img src="https://img.shields.io/badge/JUL--AUG%202023-1f6feb?style=for-the-badge&labelColor=0D1117" alt="dates"/>
+<img src="https://img.shields.io/badge/JUL--AUG%202023-1D6BF5?style=for-the-badge&labelColor=161B22" alt="dates"/>
 </td>
 <td valign="top">
 <strong>Summer Research School · Mathematics & Informatics</strong><br/>
@@ -117,7 +90,7 @@ note: "Stage background → keeps cool when prod misbehaves"
 <tr><td colspan="2"><br/></td></tr>
 <tr>
 <td width="168" valign="top">
-<img src="https://img.shields.io/badge/2022%20%26%202023-30363D?style=for-the-badge&labelColor=0D1117" alt="dates"/>
+<img src="https://img.shields.io/badge/2022%20%26%202023-484F58?style=for-the-badge&labelColor=161B22" alt="dates"/>
 </td>
 <td valign="top">
 <strong>Software Development Intern</strong><br/>
@@ -138,13 +111,14 @@ note: "Stage background → keeps cool when prod misbehaves"
 | 🧠 | CS50 (HarvardX) — scholarship |
 | 🏆 | “Scientists of Tomorrow” — drone vision + GPS · demo ~50 people |
 | 🎭 | Folk & ballroom — national TV + **Georgia · Ukraine · Thailand** |
+| 🔬 | BAS summer — handwritten digits CNN ~**98%** · paper |
 
 ---
 
 ## 📊 GitHub
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Zsadigzade&theme=dracula&no-frame=true&column=7&margin-w=8&margin-h=8" alt="Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Zsadigzade&theme=gitdimmed&no-frame=true&no-bg=false&column=7&margin-w=10&margin-h=10&rank=-%3F" alt="Trophies (UNKNOWN rank hidden)"/>
 </div>
 
 <div align="center">
@@ -152,23 +126,23 @@ note: "Stage background → keeps cool when prod misbehaves"
 </div>
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Zsadigzade&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&title_color=F0A500&icon_color=F0A500" alt="Stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zsadigzade&layout=compact&theme=github_dark&hide_border=true&title_color=F0A500" alt="Top languages"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Zsadigzade&show_icons=true&theme=dark&hide_border=false&border_color=E8A317&border_radius=8&bg_color=0D1117&title_color=E8A317&icon_color=FFCF56&text_color=C9D1D9&include_all_commits=true" alt="Stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zsadigzade&layout=compact&theme=dark&hide_border=false&border_color=E8A317&border_radius=8&bg_color=0D1117&title_color=E8A317&text_color=C9D1D9" alt="Top languages"/>
 </div>
 
 <div align="center">
-<img src="https://streak-stats.demolab.com?user=Zsadigzade&theme=dark&hide_border=true&ring=F0A500&fire=F0A500&currStreakLabel=F0A500" alt="Streak"/>
+<img src="https://streak-stats.demolab.com?user=Zsadigzade&theme=dark&hide_border=false&border=E8A317&background=0D1117&stroke=E8A317&ring=FFCF56&fire=E8A317&currStreakLabel=E8A317&sideLabels=C9D1D9&dates=C9D1D9" alt="Streak"/>
 </div>
 
 <div align="center">
-<img width="97%" src="https://github-readme-activity-graph.vercel.app/graph?username=Zsadigzade&theme=github-compact&hide_border=true&color=F0A500&line=F0A500&point=FFFFFF" alt="Activity"/>
+<img width="97%" src="https://github-readme-activity-graph.vercel.app/graph?username=Zsadigzade&theme=github-compact&hide_border=true&color=E8A317&line=FFCF56&point=FFFFFF" alt="Activity"/>
 </div>
 
 ---
 
 <div align="center">
 
-### Contribution snake
+### 🐍 Contribution snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/output/github-snake-dark.svg"/>
@@ -178,6 +152,8 @@ note: "Stage background → keeps cool when prod misbehaves"
 
 <br/>
 
-*Code like the curtain’s up. — Ziya Sadigzade*
+<sub>If this is empty: run workflow <code>Generate contribution snake</code> on the profile repo; SVGs are published to the <code>output</code> branch.</sub>
+
+<br/><br/>
 
 </div>
