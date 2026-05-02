@@ -22,6 +22,16 @@
 
 ---
 
+<div align="center">
+<img src="https://streak-stats.demolab.com?user=Zsadigzade&theme=dark&hide_border=false&border=E8A317&background=0D1117&stroke=E8A317&ring=FFCF56&fire=E8A317&currStreakLabel=E8A317&sideLabels=C9D1D9&dates=C9D1D9" alt="Streak"/>
+</div>
+
+<div align="center">
+<img width="97%" src="https://github-readme-activity-graph.vercel.app/graph?username=Zsadigzade&theme=github-compact&hide_border=true&color=E8A317&line=FFCF56&point=FFFFFF" alt="Activity"/>
+</div>
+
+---
+
 ## 👋 Now
 
 | | |
@@ -124,15 +134,6 @@ currently: "Turning memes into a social layer"
 
 <div align="center">
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zsadigzade&theme=github_dark" width="100%" alt="Profile details"/>
-</div>
-
-
-<div align="center">
-<img src="https://streak-stats.demolab.com?user=Zsadigzade&theme=dark&hide_border=false&border=E8A317&background=0D1117&stroke=E8A317&ring=FFCF56&fire=E8A317&currStreakLabel=E8A317&sideLabels=C9D1D9&dates=C9D1D9" alt="Streak"/>
-</div>
-
-<div align="center">
-<img width="97%" src="https://github-readme-activity-graph.vercel.app/graph?username=Zsadigzade&theme=github-compact&hide_border=true&color=E8A317&line=FFCF56&point=FFFFFF" alt="Activity"/>
 </div>
 
 
