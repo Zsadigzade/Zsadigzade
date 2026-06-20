@@ -1,9 +1,3 @@
-<!--
-  Local clone: C:\Users\zsadi\Desktop\Zsadigzade  →  https://github.com/Zsadigzade/Zsadigzade
-  Snake workflow commits SVGs to output/ on the default branch (main). Run: Actions → Generate contribution snake.
-  Raw URL uses ref main + path output/… (not a branch named output).
--->
-
 <div align="center">
 
 <img width="100%" alt="header" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1206,40:E8A317,100:0D1117&height=190&section=header&text=Ziya%20Sadigzade&fontSize=50&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Co-Founder%20%40%20BRUH%20%C2%B7%20CS%20%40%20Charles%20University&descSize=16&descAlignY=65&descColor=E8C468&stroke=E8A317&strokeWidth=1"/>
@@ -23,11 +17,12 @@
 ---
 
 <div align="center">
-<img src="https://streak-stats.demolab.com?user=Zsadigzade&theme=dark&hide_border=false&border=E8A317&background=0D1117&stroke=E8A317&ring=FFCF56&fire=E8A317&currStreakLabel=E8A317&sideLabels=C9D1D9&dates=C9D1D9" alt="Streak"/>
+<img src="https://github-readme-streak-stats.demolab.com?user=Zsadigzade&theme=dark&hide_border=false&border=E8A317&background=0D1117&stroke=E8A317&ring=FFCF56&fire=E8A317&currStreakLabel=E8A317&sideLabels=C9D1D9&dates=C9D1D9" alt="Streak"/>
 </div>
 
 <div align="center">
-<img width="97%" src="https://github-readme-activity-graph.vercel.app/graph?username=Zsadigzade&theme=github-compact&hide_border=true&color=E8A317&line=FFCF56&point=FFFFFF" alt="Activity"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Zsadigzade&show_icons=true&theme=github_dark&border_color=E8A317&title_color=E8A317&icon_color=FFCF56&text_color=C9D1D9&bg_color=0D1117&hide_border=false" alt="GitHub Stats"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zsadigzade&layout=compact&theme=github_dark&border_color=E8A317&title_color=E8A317&text_color=C9D1D9&bg_color=0D1117&hide_border=false" alt="Top Languages"/>
 </div>
 
 ---
@@ -129,17 +124,5 @@ currently: "Turning memes into a social layer"
 ## 📊 GitHub
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Zsadigzade&theme=gitdimmed&no-frame=true&no-bg=false&column=7&margin-w=10&margin-h=10&rank=-%3F" alt="Trophies"/>
-</div>
-
-<div align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zsadigzade&theme=github_dark" width="100%" alt="Profile details"/>
-</div>
-
-
----
-
-<div align="center">
-
-
+<img src="https://github-profile-trophy.vercel.app/?username=Zsadigzade&theme=gitdimmed&no-frame=true&no-bg=false&column=7&margin-w=10&margin-h=10&rank=B,A,S,SS,SSS,SECRET" alt="Trophies"/>
 </div>
