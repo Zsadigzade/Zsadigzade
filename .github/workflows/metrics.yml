@@ -1,0 +1,65 @@
+# Self-hosted profile metrics.
+#
+# Why: the public github-readme-stats instance returns 503 (over quota) and
+# github-profile-trophy returns 402 (billing). Both render as broken images on
+# the profile. This workflow generates the SVGs inside our own Actions run and
+# commits them to output/, so the README only ever loads raw.githubusercontent.
+#
+# Requires secret METRICS_TOKEN — a token with `repo` scope, so private
+# repositories count toward the language breakdown and the calendar.
+# Also enable: Settings → Profile → "Include private contributions on my profile".
+
+name: Generate profile metrics
+
+on:
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: metrics-${{ github.repository }}
+  cancel-in-progress: true
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      # Languages across ALL repos, private included (token scope decides this).
+      - name: Languages
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Zsadigzade
+          filename: output/metrics-languages.svg
+          base: ""
+          config_timezone: Europe/Prague
+          config_display: large
+          repositories_affiliations: owner, collaborator, organization_member
+          plugin_languages: yes
+          plugin_languages_details: percentage, bytes-size
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_ignored: html, css, scss, tex, jupyter notebook, makefile, dockerfile
+          plugin_languages_threshold: 1%
+          output_action: commit
+          committer_branch: main
+          committer_message: "chore: update language metrics"
+
+      # Full-year contribution calendar + current/longest streak.
+      - name: Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Zsadigzade
+          filename: output/metrics-calendar.svg
+          base: ""
+          config_timezone: Europe/Prague
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          output_action: commit
+          committer_branch: main
+          committer_message: "chore: update calendar metrics"

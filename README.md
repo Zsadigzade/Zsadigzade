@@ -1,128 +1,120 @@
+<!--
+  Local clone: C:\Users\zsadi\Desktop\Zsadigzade  →  https://github.com/Zsadigzade/Zsadigzade
+
+  Every image below is either a rock-solid service (shields.io, skillicons, demolab)
+  or an SVG this repo generates itself and commits to output/. No Vercel free-tier
+  hobby apps — those were the 503 (github-readme-stats) and 402 (trophy) that made
+  the old stats block render empty.
+
+  output/ is produced by two workflows on main:
+    • Generate contribution snake   → output/github-snake*.svg
+    • Generate profile metrics      → output/metrics-*.svg   (needs secret METRICS_TOKEN)
+  Run both once from Actions before pushing this README, or those images 404.
+-->
+
 <div align="center">
 
-<img width="100%" alt="header" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1206,40:E8A317,100:0D1117&height=190&section=header&text=Ziya%20Sadigzade&fontSize=50&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Co-Founder%20%40%20BRUH%20%C2%B7%20CS%20%40%20Charles%20University&descSize=16&descAlignY=65&descColor=E8C468&stroke=E8A317&strokeWidth=1"/>
+<img width="100%" alt="Ziya Sadigzade — Co-Founder @ BRUH, CS @ Charles University, Prague" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/assets/banner.svg"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=3500&pause=800&color=E8A317&background=00000000&center=true&vCenter=true&width=900&height=35&lines=Shipping+BRUH+on+iOS%2C+Android%2C+web.;Baku+%E2%86%92+Varna+%28BAS%29+%E2%86%92+Prague+%28Charles%29.;Product%2C+mobile%2C+web%2C+ML+%E2%80%94+pick+two%2C+I%E2%80%99ll+still+show+up." alt="Typing SVG"/>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=3500&pause=800&color=FFCF56&background=transparent&center=true&vCenter=true&width=900&height=38&lines=Shipping+BRUH+on+iOS%2C+Android%2C+web.;Product%2C+mobile%2C+ML%2C+AI+agents+%E2%80%94+I+ship+the+whole+stack.;Stage+background+%E2%80%94+stays+calm+when+prod+misbehaves." alt="tagline"/>
 
 <br/>
 
 <a href="https://www.linkedin.com/in/zsadigzade/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://zsadigzade.com"><img src="https://img.shields.io/badge/Site-E8A317?style=for-the-badge&logo=googlechrome&logoColor=0D1117" alt="Website"/></a>
+<a href="https://zsadigzade.com"><img src="https://img.shields.io/badge/zsadigzade.com-E8A317?style=for-the-badge&logo=googlechrome&logoColor=0D1117" alt="Website"/></a>
 <a href="mailto:zsadigzade@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://github.com/Zsadigzade"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=E8A317" alt="GitHub"/></a>
-<img src="https://komarev.com/ghpvc/?username=Zsadigzade&style=for-the-badge&color=E8A317&label=views&labelColor=161B22" alt="views"/>
+<a href="https://x.com/ZSadigzade"><img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=E8A317" alt="X"/></a>
 
 </div>
 
 ---
 
-<div align="center">
-<img src="https://github-readme-streak-stats.demolab.com?user=Zsadigzade&theme=dark&hide_border=false&border=E8A317&background=0D1117&stroke=E8A317&ring=FFCF56&fire=E8A317&currStreakLabel=E8A317&sideLabels=C9D1D9&dates=C9D1D9" alt="Streak"/>
-</div>
+## Now
 
-<div align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Zsadigzade&show_icons=true&theme=github_dark&border_color=E8A317&title_color=E8A317&icon_color=FFCF56&text_color=C9D1D9&bg_color=0D1117&hide_border=false" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zsadigzade&layout=compact&theme=github_dark&border_color=E8A317&title_color=E8A317&text_color=C9D1D9&bg_color=0D1117&hide_border=false" alt="Top Languages"/>
-</div>
-
----
-
-## 👋 Now
-
-| | |
-|:---|:---|
-| **Build** | **BRUH** — GIF & sticker-native social · [iOS](https://apps.apple.com/app/id6761007303) · [Android](https://play.google.com/store/apps/details?id=com.bruh.app) · [Web](https://bruhsocial.app) |
-| **Study** | CS @ Charles University · scholarship track |
-| **Open to** | Hackathons, collabs, blunt product feedback |
-
----
-
-## `ziya.yaml`
+- **Building** — [**BRUH**](https://bruhsocial.app), a GIF & sticker-native social app. iOS, Android and web off one React + Capacitor + Supabase codebase.
+- **Studying** — CS @ **Charles University**, Prague. Full-tuition scholarship track.
+- **Going deep on** — AI agents and developer tooling: MCP servers, orchestration, retrieval.
+- **Open to** — hackathons, collabs, and blunt product feedback.
 
 ```yaml
-origin:    "Baku, AZ"
-base:      "Prague, CZ"
-role:      "Co-Founder @ BRUH"
-focus:     [Product, "Mobile & Web", ML]
-edge:      "Stage background → stays calm when prod misbehaves"
-currently: "Turning memes into a social layer"
+origin:  Baku, AZ
+base:    Prague, CZ
+role:    Co-Founder @ BRUH
+focus:   [product, mobile & web, ML, AI agents]
+note:    stage background → keeps cool when prod misbehaves
 ```
 
 ---
 
-## 🛠 Stack
+## Stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=react,ts,js,html,css,python,tensorflow,nodejs,supabase,git,linux,vscode,vercel&theme=dark" alt="Skills"/>
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,python,tensorflow,supabase,postgres,tailwind,vite,git,docker,linux,vercel&theme=dark" alt="Stack"/>
 </div>
 
 ---
 
-## 💼 Experience
+## Shipping
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td width="168" valign="top">
-<img src="https://img.shields.io/badge/JAN%202026–NOW-E8A317?style=for-the-badge&labelColor=161B22" alt="Jan 2026–Present"/>
-</td>
-<td valign="top">
-<strong>Co-Founder · Product · Mobile & Web</strong><br/>
-<code>BRUH</code> · Remote / Prague, CZ<br/>
-<sub>iOS & Android · React, TypeScript, Supabase, Capacitor · strategy, UX, growth</sub>
-</td>
-</tr>
-<tr><td colspan="2"><br/></td></tr>
-<tr>
-<td width="168" valign="top">
-<img src="https://img.shields.io/badge/MAY–AUG%202024-7C3AED?style=for-the-badge&labelColor=161B22" alt="May–Aug 2024"/>
-</td>
-<td valign="top">
-<strong>Business Development Intern</strong><br/>
-<code>ATL Tech</code> · Baku Economic Zone, AZ<br/>
-<sub>Market research · exec decks · client touchpoints</sub>
-</td>
-</tr>
-<tr><td colspan="2"><br/></td></tr>
-<tr>
-<td width="168" valign="top">
-<img src="https://img.shields.io/badge/JUL–AUG%202023-1D6BF5?style=for-the-badge&labelColor=161B22" alt="Jul–Aug 2023"/>
-</td>
-<td valign="top">
-<strong>Summer Research School · Mathematics & Informatics</strong><br/>
-<code>Bulgarian Academy of Sciences</code> · Varna, BG<br/>
-<sub>Selective cohort · handwritten digit CNN ~98% acc · research paper · Python, Keras, TensorFlow</sub>
-</td>
-</tr>
-<tr><td colspan="2"><br/></td></tr>
-<tr>
-<td width="168" valign="top">
-<img src="https://img.shields.io/badge/2022%20%26%202023-484F58?style=for-the-badge&labelColor=161B22" alt="2022 & 2023"/>
-</td>
-<td valign="top">
-<strong>Software Development Intern</strong><br/>
-<code>SINAM</code> · Baku, AZ<br/>
-<sub>QA · feature testing · hardware/software support</sub>
-</td>
-</tr>
-</table>
+**BRUH** — GIF & sticker-native social app · React · TypeScript · Capacitor · Supabase
+[App Store](https://apps.apple.com/app/id6761007303) · [Google Play](https://play.google.com/store/apps/details?id=com.bruh.app) · [Web](https://bruhsocial.app)
+
+**GarminBud** — talk to your Garmin data. 9 MCP tools, watch widget, pairing flow · Node · TypeScript · MCP SDK
+[Repo](https://github.com/Zsadigzade/Garmin-Bud)
+
+**TOEFL Platform** — AI-generated practice + admin dashboard · Next.js · Supabase · Claude
+[Repo](https://github.com/Zsadigzade/TOEFL)
+
+**zsadigzade.com** — immersive portfolio · Next.js · GSAP · three.js
+[Live](https://zsadigzade.com)
 
 ---
 
-## 🏅 Highlights
+## Experience
 
-| | |
-|:---|:---|
-| 🎓 | Charles University — full tuition scholarship |
-| 📈 | HS finals **292.1 / 300** · SAT **1450** · IELTS **7.5** · AP Calc **4** |
-| 🧠 | CS50 (HarvardX) — scholarship recipient |
-| 🏆 | "Scientists of Tomorrow" — drone vision + GPS nav · demo to ~50 attendees |
-| 🎭 | Folk & ballroom dance — national TV · competed in **Georgia · Ukraine · Thailand** |
-| 🔬 | BAS summer — CNN on handwritten digits ~**98%** accuracy · co-authored paper |
+**Co-Founder · Product · Mobile & Web** — `BRUH` · Remote / Prague, CZ
+<sub>`JAN 2026 — PRESENT` · iOS & Android app · React, TypeScript, Supabase, Capacitor · strategy, UX, growth experiments</sub>
+
+**Business Development Intern** — `ATL Tech` · Baku Economic Zone, AZ
+<sub>`MAY — AUG 2024` · market research · exec decks · client touchpoints</sub>
+
+**Summer Research School, Mathematics & Informatics** — `Bulgarian Academy of Sciences` · Varna, BG
+<sub>`JUL — AUG 2023` · selective cohort · handwritten-digit CNN at ~98% · research paper · Python, Keras, TensorFlow</sub>
+
+**Software Development Intern** — `SINAM` · Baku, AZ
+<sub>`2022 & 2023` · QA · feature testing · hardware/software support</sub>
 
 ---
 
-## 📊 GitHub
+## Highlights
+
+- 🎓 **Charles University** — full-tuition scholarship
+- 🧠 **CS50** (HarvardX) — scholarship
+- 🏆 **"Scientists of Tomorrow"** — drone vision + GPS, live demo to ~50 people
+- 🔬 **BAS summer school** — handwritten-digit CNN ~98%, published paper
+- 🎭 **Folk & ballroom dancer** — national TV, performed in Georgia, Ukraine, Thailand
+
+---
+
+## Code
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Zsadigzade&theme=gitdimmed&no-frame=true&no-bg=false&column=7&margin-w=10&margin-h=10&rank=B,A,S,SS,SSS,SECRET" alt="Trophies"/>
+
+<img width="49%" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/metrics-languages.svg" alt="Languages"/>
+<img width="49%" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/metrics-calendar.svg" alt="Contribution calendar"/>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/github-snake.svg"/>
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/github-snake-dark.svg"/>
+</picture>
+
+<br/>
+
+<sub>Most of my work lives in private repos — these graphs count them.</sub>
+
 </div>
