@@ -102,10 +102,13 @@ note:    stage background → keeps cool when prod misbehaves
 
 <div align="center">
 
+<!-- METRICS: uncomment these two lines AFTER adding the METRICS_TOKEN secret and
+     running Actions → "Generate profile metrics" once. Until output/metrics-*.svg
+     exist on main, they render as broken images.
 <img width="49%" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/metrics-languages.svg" alt="Languages"/>
 <img width="49%" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/metrics-calendar.svg" alt="Contribution calendar"/>
+-->
 
-<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/github-snake-dark.svg"/>
@@ -115,6 +118,6 @@ note:    stage background → keeps cool when prod misbehaves
 
 <br/>
 
-<sub>Most of my work lives in private repos — these graphs count them.</sub>
+<sub>Most of my work lives in private repos.</sub>
 
 </div>
