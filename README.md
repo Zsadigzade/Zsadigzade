@@ -1,6 +1,4 @@
 <!--
-  Local clone: C:\Users\zsadi\Desktop\Zsadigzade  →  https://github.com/Zsadigzade/Zsadigzade
-
   Every image below is either a rock-solid service (shields.io, skillicons, demolab)
   or an SVG this repo generates itself and commits to output/. No Vercel free-tier
   hobby apps — those were the 503 (github-readme-stats) and 402 (trophy) that made
@@ -9,12 +7,12 @@
   output/ is produced by two workflows on main:
     • Generate contribution snake   → output/github-snake*.svg
     • Generate profile metrics      → output/metrics-*.svg   (needs secret METRICS_TOKEN)
-  Run both once from Actions before pushing this README, or those images 404.
+  The metrics images below stay commented out until that workflow has run once.
 -->
 
 <div align="center">
 
-<img width="100%" alt="Ziya Sadigzade — Co-Founder @ BRUH, CS @ Charles University, Prague" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/assets/banner.svg"/>
+<img width="100%" alt="Ziya Sadigzade — Co-Founder @ BRUH, CS student, Prague" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/assets/banner.svg"/>
 
 <br/>
 
@@ -34,7 +32,7 @@
 ## Now
 
 - **Building** — [**BRUH**](https://bruhsocial.app), a GIF & sticker-native social app. iOS, Android and web off one React + Capacitor + Supabase codebase.
-- **Studying** — CS @ **Charles University**, Prague. Full-tuition scholarship track.
+- **Studying** — Computer science, Prague.
 - **Going deep on** — AI agents and developer tooling: MCP servers, orchestration, retrieval.
 - **Open to** — hackathons, collabs, and blunt product feedback.
 
@@ -61,8 +59,8 @@ note:    stage background → keeps cool when prod misbehaves
 **BRUH** — GIF & sticker-native social app · React · TypeScript · Capacitor · Supabase
 [App Store](https://apps.apple.com/app/id6761007303) · [Google Play](https://play.google.com/store/apps/details?id=com.bruh.app) · [Web](https://bruhsocial.app)
 
-**GarminBud** — talk to your Garmin data. 9 MCP tools, watch widget, pairing flow · Node · TypeScript · MCP SDK
-[Repo](https://github.com/Zsadigzade/Garmin-Bud)
+**TrainBud** — talk to your training data through Claude, Cursor and other MCP clients, with a Connect IQ watch app · Node · TypeScript · MCP SDK
+[Repo](https://github.com/Zsadigzade/trainbud)
 
 **TOEFL Platform** — AI-generated practice + admin dashboard · Next.js · Supabase · Claude
 [Repo](https://github.com/Zsadigzade/TOEFL)
@@ -90,7 +88,6 @@ note:    stage background → keeps cool when prod misbehaves
 
 ## Highlights
 
-- 🎓 **Charles University** — full-tuition scholarship
 - 🧠 **CS50** (HarvardX) — scholarship
 - 🏆 **"Scientists of Tomorrow"** — drone vision + GPS, live demo to ~50 people
 - 🔬 **BAS summer school** — handwritten-digit CNN ~98%, published paper
@@ -102,9 +99,9 @@ note:    stage background → keeps cool when prod misbehaves
 
 <div align="center">
 
-<!-- METRICS: uncomment these two lines AFTER adding the METRICS_TOKEN secret and
-     running Actions → "Generate profile metrics" once. Until output/metrics-*.svg
-     exist on main, they render as broken images.
+<!-- METRICS: uncomment these two lines AFTER adding the METRICS_TOKEN secret (read:user
+     scope only) and running Actions → "Generate profile metrics" once. Until
+     output/metrics-*.svg exist on main, they render as broken images.
 <img width="49%" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/metrics-languages.svg" alt="Languages"/>
 <img width="49%" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/metrics-calendar.svg" alt="Contribution calendar"/>
 -->
