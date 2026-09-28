@@ -1,12 +1,14 @@
 <!--
   Every image below is either a rock-solid service (shields.io, skillicons, demolab)
-  or an SVG this repo generates itself and commits to output/. No Vercel free-tier
+  or an SVG this repo generates itself and publishes to the output branch. No Vercel free-tier
   hobby apps — those were the 503 (github-readme-stats) and 402 (trophy) that made
   the old stats block render empty.
 
-  output/ is produced by two workflows on main:
-    • Generate contribution snake   → output/github-snake*.svg
-    • Generate profile metrics      → output/metrics-*.svg   (needs secret METRICS_TOKEN)
+  The generated SVGs live on the `output` branch, not main. Only default-branch
+  commits count toward the contribution graph, and a daily bot commit there makes
+  the graph look scripted. Two workflows publish there:
+    • Generate contribution snake   → github-snake*.svg
+    • Generate profile metrics      → metrics-*.svg   (needs secret METRICS_TOKEN)
   The metrics images below stay commented out until that workflow has run once.
 -->
 
@@ -102,15 +104,15 @@ note:    stage background → keeps cool when prod misbehaves
 <!-- METRICS: uncomment these two lines AFTER adding the METRICS_TOKEN secret (read:user
      scope only) and running Actions → "Generate profile metrics" once. Until
      output/metrics-*.svg exist on main, they render as broken images.
-<img width="49%" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/metrics-languages.svg" alt="Languages"/>
-<img width="49%" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/metrics-calendar.svg" alt="Contribution calendar"/>
+<img width="49%" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/output/metrics-languages.svg" alt="Languages"/>
+<img width="49%" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/output/metrics-calendar.svg" alt="Contribution calendar"/>
 -->
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/github-snake.svg"/>
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/main/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/output/github-snake.svg"/>
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Zsadigzade/Zsadigzade/output/github-snake-dark.svg"/>
 </picture>
 
 <br/>
