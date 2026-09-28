@@ -3,7 +3,9 @@
 # Why: the public github-readme-stats instance returns 503 (over quota) and
 # github-profile-trophy returns 402 (billing). Both render as broken images on
 # the profile. This workflow generates the SVGs inside our own Actions run and
-# commits them to output/, so the README only ever loads raw.githubusercontent.
+# commits them to the `output` branch (never main: only default-branch commits count
+# toward the contribution graph, and a daily bot commit there looks scripted).
+# The branch is created by the snake workflow; run that one first.
 #
 # Requires secret METRICS_TOKEN: a classic personal access token with the
 # `read:user` scope ONLY. It reads public data, so the language chart covers
@@ -55,7 +57,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Zsadigzade
-          filename: output/metrics-languages.svg
+          filename: metrics-languages.svg
           base: ""
           config_timezone: Europe/Prague
           config_display: large
@@ -67,7 +69,7 @@ jobs:
           plugin_languages_ignored: html, css, scss, tex, jupyter notebook, makefile, dockerfile
           plugin_languages_threshold: 1%
           output_action: commit
-          committer_branch: main
+          committer_branch: output
           committer_message: "chore: update language metrics"
 
       # Full-year contribution calendar + current/longest streak.
@@ -77,11 +79,11 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Zsadigzade
-          filename: output/metrics-calendar.svg
+          filename: metrics-calendar.svg
           base: ""
           config_timezone: Europe/Prague
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           output_action: commit
-          committer_branch: main
+          committer_branch: output
           committer_message: "chore: update calendar metrics"
